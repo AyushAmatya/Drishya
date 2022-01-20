@@ -26,3 +26,4 @@ Route::resource('abouts','Frontend\AboutController');
 
 //backend
 Route::get('/backend/dashboard','Backend\DashboardController@index')->name('dashboard');
+Route::get('/backend/hotel','Backend\HotelController@index')->name('hotel.index');
