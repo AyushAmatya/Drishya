@@ -21,3 +21,8 @@ Route::resource('/','Frontend\IndexController');
 Route::resource('contacts','Frontend\ContactController');
 Route::resource('services','Frontend\ServiceController');
 Route::resource('abouts','Frontend\AboutController');
+
+
+
+//backend
+Route::get('/backend/dashboard','Backend\DashboardController@index')->name('dashboard');
